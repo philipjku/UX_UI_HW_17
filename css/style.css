@@ -1,5 +1,6 @@
 body{
     font-family: 'Arimo', 'Times New Roman', Times, serif;
+    margin: 0% auto;
 }
 
 .inline-block{
@@ -7,17 +8,10 @@ body{
     vertical-align: top;
 }
 
-.logo{
-    width: 23%;
-    padding: 1%;
-    text-align: center;
-    outline: 1px solid red;
-}
-
 nav{
+    float: right;
     width: 73%;
-    padding: 1%;
-    outline: 1px solid red;
+    padding: 10px;
 }
 
 ul{
@@ -26,29 +20,43 @@ ul{
 }
 
 .heroImg{
-    height: 600px;
-    padding: 25px;
-    outline: 1px solid red;
+    margin: 0;
+    height: 400px;
+    padding: 10px;
+}
+
+.heroImg p{
+    width: 1000px;
 }
 
 #hero{
     height: 200px;
-    border: 10px solid tomato;
 }
 
 .content{
-    width: 500px;
+    width: 100px;
+    float:left;
     margin: 0 auto;
+    padding: 15 px;
+    font-size: 48px;
+}
+
+.caseStudy{
+    width: 500px;
+}
+
+.caseStudy img{
+    height: 200px;
 }
 
 footer{
     background-color: #373738;
     color: white;
-    outline: 1px solid red;
 }
 
-footer.ul{
+footer > ul{
     display: inline-block;
     vertical-align: top;
-    padding: 25%;
+    margin: 20px;
+    padding: 10px;
 }
